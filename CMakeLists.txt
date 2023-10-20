@@ -8,9 +8,18 @@ set(CMAKE_MODULE_PATH "${CMAKE_MODULE_PATH}" ${CMAKE_SOURCE_DIR}/cmake)
 
 enable_testing()
 
-add_executable(run src/impl.cpp main.cpp)
+include_directories(
+    include/tools
+    include
+    include/algorithms
+)
 
-include_directories(include)
+
+add_executable(run 
+    src/command_impl.cpp 
+    src/algo.cpp
+    src/greed.cpp
+    main.cpp)
 
 add_subdirectory(tests)
 

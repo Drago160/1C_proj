@@ -1,11 +1,28 @@
 #include <gtest/gtest.h>
-#include <f.hpp>
+#include "command_manager.hpp"
+#include <vector>
 
-TEST(test1, test1) {
-    ASSERT_EQ(f(1, 1), 2);
+TEST(Basic, CheckConstruct1) {
+    std::vector<std::vector<bool>> v(3, std::vector<bool>(3, false));
+    v[1][1] = true;
+    CommandManager manager(v);
+    manager.SetParams(1, {1, 1}, 1);
 }
 
-TEST(test2, test2) {
-    ASSERT_EQ(f(2, 8), 10);
+TEST(Basic, CheckGetEnv1) {
+    std::vector<std::vector<bool>> v(5, std::vector<bool>(5, false));
+    v[2][2] = true;
+    CommandManager manager(v);
+    manager.SetParams(1, {1, 1}, 1);
+    decltype(v) env;
+    manager.SetEnv(env);
+    ASSERT_TRUE(env[1][1]);
+
+    ASSERT_FALSE(env[0][1]);
+    ASSERT_FALSE(env[1][0]);
+    ASSERT_FALSE(env[2][2]);
+    ASSERT_FALSE(env[2][0]);
+    ASSERT_FALSE(env[2][1]);
+
 }
 
