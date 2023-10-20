@@ -1,1 +1,0 @@
-/usr/bin/clang++-16 -O3 -DNDEBUG CMakeFiles/tests.dir/test.cpp.o CMakeFiles/tests.dir/__/src/impl.cpp.o -o /home/machenike/1C/tests/bin/tests  -lgtest -lgtest_main 
