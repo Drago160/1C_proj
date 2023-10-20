@@ -1,1 +1,0 @@
-/usr/bin/g++ -O3 -DNDEBUG CMakeFiles/tests.dir/test.cpp.o CMakeFiles/tests.dir/__/src/command_impl.cpp.o CMakeFiles/tests.dir/__/src/greed.cpp.o CMakeFiles/tests.dir/__/src/algo.cpp.o -o /home/machenike/1C/tests/bin/tests  -lgtest -lgtest_main 

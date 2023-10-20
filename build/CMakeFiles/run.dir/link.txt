@@ -1,1 +1,0 @@
-/usr/bin/g++ -O3 -DNDEBUG CMakeFiles/run.dir/src/command_impl.cpp.o CMakeFiles/run.dir/src/algo.cpp.o CMakeFiles/run.dir/src/greed.cpp.o CMakeFiles/run.dir/main.cpp.o -o run 
