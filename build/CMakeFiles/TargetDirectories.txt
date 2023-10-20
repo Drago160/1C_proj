@@ -1,0 +1,12 @@
+/home/machenike/1C/build/CMakeFiles/run.dir
+/home/machenike/1C/build/CMakeFiles/package.dir
+/home/machenike/1C/build/CMakeFiles/package_source.dir
+/home/machenike/1C/build/CMakeFiles/test.dir
+/home/machenike/1C/build/CMakeFiles/edit_cache.dir
+/home/machenike/1C/build/CMakeFiles/rebuild_cache.dir
+/home/machenike/1C/build/tests/CMakeFiles/tests.dir
+/home/machenike/1C/build/tests/CMakeFiles/package.dir
+/home/machenike/1C/build/tests/CMakeFiles/package_source.dir
+/home/machenike/1C/build/tests/CMakeFiles/test.dir
+/home/machenike/1C/build/tests/CMakeFiles/edit_cache.dir
+/home/machenike/1C/build/tests/CMakeFiles/rebuild_cache.dir
